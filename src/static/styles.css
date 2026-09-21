@@ -22,7 +22,11 @@ header {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background-color: #35b4ef;
+  background: rgba(38, 133, 180, 0.46);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 24px rgba(10, 35, 60, 0.18);
   color: white;
   border-radius: 5px;
 }
